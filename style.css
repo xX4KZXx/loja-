@@ -1,0 +1,47 @@
+.conteiner{
+    text-align: center;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.caixa{
+    width: 100%;
+   
+}
+
+.vermelho{
+    background-color: red;
+    height: 250px;
+}
+.azul{
+    background-color: blue;
+    height: 250px;
+}
+.verde{
+    background-color: green;
+    height: 250px;
+}
+
+@media screen and (min-width:500px) {
+    .vermelho, .verde{
+        width: 33%;
+    }
+    .azul{
+        width: 33%;
+    }
+    
+}
+@media screen and (min-width:600px){
+    .azul{
+        width: 33%;
+    }
+    .vermelho, .verde{
+        width: 33%;
+    }
+    
+}
